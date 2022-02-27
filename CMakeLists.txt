@@ -4,6 +4,8 @@ project(TP4)
 set(CMAKE_CXX_STANDARD 14)
 
 add_definitions(-O2)
+add_subdirectory(exercice3)
+
 add_executable(TP4.1 hpcOpenmpSchedule.cpp)
 add_executable(TP4.2 exercice2.cpp)
 
